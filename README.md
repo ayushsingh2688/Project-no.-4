@@ -1,19 +1,42 @@
-# Project-no.-4
+# Time Tracker Chrome Extension
 
-# Time Tracker & Productivity Analytics Chrome Extension
+A Chrome extension concept for tracking time spent on websites and showing productivity insights in a popup dashboard.
 
-## 📌 Objective
-The goal of this project is to develop a Chrome Extension that tracks the time users spend on various websites and provides insightful productivity analytics. This tool helps users understand their browsing behavior and identify productive vs. unproductive usage patterns.
+## Objective
 
-## 🚀 Key Activities
-- ✅ **Time Tracking**: Monitor the amount of time spent on different websites.
-- ✅ **Productivity Classification**: Automatically categorize websites as productive (e.g., coding platforms) or unproductive (e.g., social media).
-- ✅ **Local Data Storage**: Store time-tracking data locally using Chrome Storage API.
-- ✅ **Popup Dashboard**: Display simple analytics in a user-friendly popup interface.
-- ✅ **Weekly Report (Planned)**: Generate weekly productivity summaries (to be added in future updates).
+Help users understand browsing habits by tracking website usage, classifying sites, and presenting simple productivity analytics.
 
-## 🛠️ Technology Used
-- **JavaScript**: Core logic and browser event handling.
-- **HTML/CSS**: For building the popup UI.
-- **Chrome Extension API**: To interact with browser tabs, storage
+## Planned Features
 
+- Track active tab usage time
+- Classify websites as productive or unproductive
+- Store usage data with Chrome Storage API
+- Show analytics in a popup dashboard
+- Generate weekly productivity summaries
+
+## Tech Stack
+
+- JavaScript
+- HTML
+- CSS
+- Chrome Extension APIs
+- Chrome Storage API
+
+## Suggested Project Structure
+
+```text
+.
+|-- manifest.json
+|-- background.js
+|-- popup.html
+|-- popup.css
+|-- popup.js
+`-- README.md
+```
+
+## Suggested Next Improvements
+
+- Rename this repository to `time-tracker-extension`.
+- Add the extension source files if they are not committed yet.
+- Add installation instructions for loading the unpacked extension in Chrome.
+- Add screenshots of the popup dashboard.
